@@ -148,80 +148,46 @@ const Home = () => {
       </section>
 
       {/* Mission Section */}
-      <section className="py-12 sm:py-20">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
-            <div>
-              <img 
-                src={collaborationImage} 
-                alt="Healthcare collaboration between traditional and modern medicine" 
-                className="w-full h-auto rounded-2xl shadow-xl"
-              />
-            </div>
-            <div className="space-y-4 sm:space-y-6">
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary">
-                Bridging Ancient Wisdom with Modern Science
-              </h2>
-              <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                AyushBridge is dedicated to creating seamless integration between traditional AYUSH 
-                medicine systems and modern healthcare protocols. Our mission is to preserve the valuable 
-                knowledge of traditional medicine while making it accessible and compatible with contemporary 
-                medical practices.
-              </p>
-              <div className="space-y-3 sm:space-y-4">
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-sm sm:text-base text-muted-foreground">
-                    <strong className="text-foreground">Preserve Traditional Knowledge:</strong> Maintain the integrity 
-                    of ancient medical wisdom while adapting to modern standards.
-                  </p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-sm sm:text-base text-muted-foreground">
-                    <strong className="text-foreground">Enhance Interoperability:</strong> Enable seamless communication 
-                    between different healthcare systems and practitioners.
-                  </p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-sm sm:text-base text-muted-foreground">
-                    <strong className="text-foreground">Improve Patient Care:</strong> Facilitate better treatment 
-                    outcomes through integrated approach to healthcare.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-12 sm:py-20 bg-primary/5">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="max-w-3xl mx-auto space-y-6 sm:space-y-8">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary">
-              Ready to Transform Healthcare Integration?
-            </h2>
-            <p className="text-lg sm:text-xl text-muted-foreground px-4 sm:px-0">
-              Join thousands of healthcare professionals who trust AyushBridge for 
-              accurate medical code conversion and seamless system integration.
+     <section className="py-12 sm:py-20 flex justify-center">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="flex justify-center items-center">
+      <div className="max-w-2xl text-center space-y-4 sm:space-y-6">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary">
+          Bridging Ancient Wisdom with Modern Science
+        </h2>
+        <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
+          AyushBridge is dedicated to creating seamless integration between traditional AYUSH
+          medicine systems and modern healthcare protocols. Our mission is to preserve the valuable
+          knowledge of traditional medicine while making it accessible and compatible with contemporary
+          medical practices.
+        </p>
+        <div className="space-y-3 sm:space-y-4 text-left sm:text-center">
+          <div className="flex items-start gap-3">
+            <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+            <p className="text-sm sm:text-base text-muted-foreground">
+              <strong className="text-foreground">Preserve Traditional Knowledge:</strong> Maintain the integrity
+              of ancient medical wisdom while adapting to modern standards.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className="text-base sm:text-lg px-6 sm:px-8 w-full sm:w-auto">
-                <Link to="/converter">
-                  <Stethoscope className="mr-2 h-5 w-5" />
-                  Get Started Free <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
-              <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 sm:px-8 w-full sm:w-auto">
-                <FileText className="mr-2 h-5 w-5" />
-                Learn More
-              </Button>
-            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+            <p className="text-sm sm:text-base text-muted-foreground">
+              <strong className="text-foreground">Enhance Interoperability:</strong> Enable seamless communication
+              between different healthcare systems and practitioners.
+            </p>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+            <p className="text-sm sm:text-base text-muted-foreground">
+              <strong className="text-foreground">Improve Patient Care:</strong> Facilitate better treatment
+              outcomes through integrated approach to healthcare.
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
     </div>
   );
 };
