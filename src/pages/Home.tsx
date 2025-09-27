@@ -208,7 +208,7 @@ const Home = () => {
               </Button>
               <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 sm:px-8 w-full sm:w-auto">
                 <FileText className="mr-2 h-5 w-5" />
-                Learn More
+                <Link to="/api-docs">Learn MoreLearn More</Link>
               </Button>
             </div>
           </div>
